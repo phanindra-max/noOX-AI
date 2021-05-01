@@ -122,7 +122,11 @@ function draw() {
       resultP.html('Tie!');
     } else {
       resultP.html(`<div class='result'>${result} says : I know I'm ultra smart, what about you?</div>
-      <p id='ps'>Just kidding Lol. Stay Home and try again <3 </p>`);
+      <p id='ps'>Just kidding Lol. Stay Home and try again <3 
+        <br/>
+        <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
+       </p>
+      `);
     }
   }
 }

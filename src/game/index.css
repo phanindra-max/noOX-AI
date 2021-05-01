@@ -44,11 +44,16 @@ body {
   text-align: center;
   color: red;
 }
+
 .result {
   text-align: center;
   color: green;
 }
 
+#refresh {
+  font-size: 1rem;
+  text-align: center;
+}
 
 .info-wrapper button {
   background: #272727;

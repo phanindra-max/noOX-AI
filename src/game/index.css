@@ -3,7 +3,6 @@
 canvas {
     padding-left: 0;
     padding-right: 0;
-    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -17,7 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 
@@ -46,7 +45,6 @@ body {
   color: red;
 }
 .result {
-  padding-top: 5%;
   text-align: center;
   color: green;
 }

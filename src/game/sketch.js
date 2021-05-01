@@ -121,7 +121,7 @@ function draw() {
     if (result == 'tie') {
       resultP.html('Tie!');
     } else {
-      resultP.html(`<div class='result'>*Le ${result}: I know I'm ultra smart, what about you?</div>
+      resultP.html(`<div class='result'>${result} says : I know I'm ultra smart, what about you?</div>
       <p id='ps'>Just kidding Lol. Stay Home and try again <3 </p>`);
     }
   }

@@ -1,12 +1,16 @@
-# Switch
+# noOX AI
 
-A landing page template.
+This project's main intention is to find relatively easy solutions using common human intelligence rather than training machines to do so. Simple, but we feel that there is a major need for putting human brains to work in more creative ways is a necessity.
 
-* [Getting started](#getting-started)
+* [Getting started]():  
 
 ## Getting started
-* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
-* Next, use your command line to enter your project directory.
-* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
+* First, simply visit [this page](https://nodejs.org/en/download/package-manager/) and play on simple Tic-Tac-Toe Game and comeback.
+* Next, please play that and continue reading(just kidding, keep reading if you want to).
+* The project was built using simple algorithm called Minimax Algorithm. It is fast, easier to implement, wasy to understand and more over it's based on using simple common sense based on winning logic of the game.
+* We CHALLENGE you to win the game without changing the script. You just can't:)
+* Take a moment and try to understand what we did here, we used simple DSA concepts and built something which is very good at doing it's task.
+* We emphasize on putting in that creative side of the brain to work
+* So, thanks for reading it through. Do check the website if havem't already.
+* Stay home and keep rocking, peace.
 
-You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!

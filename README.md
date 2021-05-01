@@ -2,10 +2,10 @@
 
 This project's main intention is to find relatively easy solutions using common human intelligence rather than training machines to do so. Simple, but we feel that there is a major need for putting human brains to work in more creative ways is a necessity.
 
-* [Getting started]():  
+* [If you're very busy just like us, simply click this link](https://phanindra-max.github.io/xxx-hurray/):  
 
-## Getting started
-* First, simply visit [this page](https://nodejs.org/en/download/package-manager/) and play on simple Tic-Tac-Toe Game and comeback.
+## What is this?
+* First, simply visit [this page](https://phanindra-max.github.io/xxx-hurray/) and play on simple Tic-Tac-Toe Game and comeback.
 * Next, please play that and continue reading(just kidding, keep reading if you want to).
 * The project was built using simple algorithm called Minimax Algorithm. It is fast, easier to implement, wasy to understand and more over it's based on using simple common sense based on winning logic of the game.
 * We CHALLENGE you to win the game without changing the script. You just can't:)

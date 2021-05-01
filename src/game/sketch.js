@@ -119,7 +119,10 @@ function draw() {
     let resultP = createP('');
     resultP.style('font-size', '32pt');
     if (result == 'tie') {
-      resultP.html('Tie!');
+      resultP.html(`<h4 class='result'>Tie!
+      <br/>
+      <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
+      </h4>`);
     } else {
       resultP.html(`<div class='result'>${result} says : I know I'm ultra smart, what about you?</div>
       <p id='ps'>Just kidding Lol. Stay Home and try again <3 

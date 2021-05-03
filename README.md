@@ -2,7 +2,7 @@
 
 This project's main intention is to find relatively easy solutions using common human intelligence rather than training machines to do so. Simple, but we feel that there is a major need for putting human brains to work in more creative ways is a necessity.
 
-* [If you're very busy just like us, simply click this link](https://phanindra-max.github.io/xxx-hurray/):  
+* [If you're very busy just like us, simply click this link](https://phanindra-max.github.io/xxx-hurray/)
 
 ## What is this?
 * First, simply visit [this page](https://phanindra-max.github.io/xxx-hurray/) and play on simple Tic-Tac-Toe Game and comeback.

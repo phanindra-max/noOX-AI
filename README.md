@@ -11,6 +11,6 @@ This project's main intention is to find relatively easy solutions using common 
 * We CHALLENGE you to win the game without changing the script. You just can't :)
 * Take a moment and try to understand what we did here, we used simple DSA concepts and built something which is very good at doing it's task.
 * We emphasize on putting in that creative side of the brain to work
-* So, thanks for reading it through. Do check the website if havem't already.
+* So, thanks for reading it through. Do check the website if haven't already.
 * Stay home and keep rocking, peace.
 

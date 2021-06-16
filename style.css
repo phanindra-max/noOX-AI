@@ -100,8 +100,8 @@ body {
   outline: none;
 }
 
-#ps{
-  font-size: 1rem;
+#ps{ 
+  font-weight: 300;
   text-align: center;
   color: red;
   border-radius: 35px;

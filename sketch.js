@@ -140,12 +140,13 @@ let board = [
         <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
         </h4>`);
       } else {
-        resultP.html(`<div class='result' >${result} says : I know I'm ultra smart, what about you?</div>
-        <p id='ps'>Just kidding Lol. Stay Home and try again <3 
-          <br/>
-          <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
-         </p>
-        `);
+        resultP.html(`<h4 id='ps'> 
+                      <br/>
+                      Well, we can try again ❤
+                      <br/>
+                      <br>
+                      <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
+                      </h4>`);
       }
     }
   }

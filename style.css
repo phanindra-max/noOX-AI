@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 *{
-    background-color:#A3BCB6;
+    background-color:white;
     margin : 0px;
     padding : 0px
 }
@@ -10,8 +10,9 @@
     justify-content: center;
 
 }
+
 canvas {
-    border: 2px solid  #3C403D;
+    border: 4px solid  #3498db;
     border-radius: 35px;
     margin:0px;
     padding-left: 0;
@@ -21,6 +22,7 @@ canvas {
     display: block;
     width: 800px;
     height: 400px;
+    color:#3498db;
 }
 main{
     /* border-top-left-radius: 35px;
@@ -34,31 +36,40 @@ element.style {
 canvas #defaultCanvas0{
     height: 400px;
 }
+html canvas{
+  height: 500px;
+}
 
 content{
     font-family: 'Potta One', cursive;
-    background-color: azure;
+    background-color: white;
+    font-size: 345px;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: azure;
+    background-color: white;
     border-radius: 35px;
 
 }
 .logo img{
     width:90px;
-    background-color: azure;
+    background-color: white;
 
+}
+hr{
+  margin: 21px;
+  padding: 2px;
 }
 
 body {
-    margin-top: 0ch;
-    padding:0px;
-    /* margin:0px; */
-  background-color: #3C403D;
-  color: rgb(255, 49, 83);
+  font-size: 34px;
+  margin-top: 0ch;
+  padding: 0px;
+  /* margin: 0px; */
+  background-color: white;
+  color: #3498db;
   font-family: 'Potta One', cursive;
   font-weight: 500;
   align-items: center;
@@ -103,8 +114,9 @@ main p div{
     height: auto;
     width: auto;
   text-align: center;
-  color: green;
+  color: #3498db;
   border-radius: 35px;
+  font-size: 35px;
 }
 
 #refresh {
@@ -120,4 +132,30 @@ main p div{
   cursor: pointer;
   padding: 0.5rem;
   margin: 0.5rem 1rem;
+}
+
+.sty{
+  color:#3b3e41;
+  animation: colorChannger 10s ease-in-out infinite;
+}
+
+@keyframes colorChannger {
+  0%{
+    color:#ff652f
+  }
+  20%{
+    color: aqua;
+  }
+  40%{
+    color: #0bf70b;
+  }
+  60%{
+    color: #e3fc02;
+  }
+  80%{
+    color:#0b0ff7;
+  }
+  100%{
+    color: rgb(233, 0, 0);
+  }
 }

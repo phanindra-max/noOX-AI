@@ -12,13 +12,29 @@ let board = [
   
   let w; // = width / 3;
   let h; // = height / 3;
+  var x = window.matchMedia("(max-width: 700px)")
+
+  let vvv=300;
+  let vvw=300;
+
+  function myFunction(x) {
+    if (x.matches) { // If media query matches
+      document.body.style.backgroundColor = "yellow";
+    } else {
+     document.body.style.backgroundColor = "pink";
+    }
+  }
+  
+  var x = window.matchMedia("(max-width: 700px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(myFunction) 
   
   let ai = 'X';
   let human = 'O';
   let currentPlayer = human;
   
   function setup() {
-    createCanvas(450, 450);
+    createCanvas(vvv, vvw);
     w = width / 3;
     h = height / 3;
   
@@ -133,3 +149,11 @@ let board = [
       }
     }
   }
+
+  function myFunction(x) {
+    if (x.matches) { // If media query matches
+      vvv=600;
+      vvw=600;
+    }
+  }
+  

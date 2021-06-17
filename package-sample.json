@@ -8,9 +8,11 @@
     "type": "git",
     "url": "https://bitbucket.org/pasqualevitiello/switch.git"
   },
+  
   "bugs": {
     "url": "https://bitbucket.org/pasqualevitiello/switch/issues"
   },
+  
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
@@ -30,6 +32,7 @@
     "watch": "run-p serve watch:*",
     "postinstall": "run-s build watch"
   },
+  
   "devDependencies": {
     "autoprefixer": "^9.0.1",
     "browser-sync": "^2.12.8",

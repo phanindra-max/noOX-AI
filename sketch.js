@@ -12,22 +12,25 @@ let board = [
   
   let w; // = width / 3;
   let h; // = height / 3;
-  var x = window.matchMedia("(max-width: 700px)")
+  var x = window.matchMedia("(min-width: 1025px)")
 
   let vvv=300;
   let vvw=300;
 
   function myFunction(x) {
     if (x.matches) { // If media query matches
-      document.body.style.backgroundColor = "yellow";
+      // document.body.style.backgroundColor = "yellow";
+  
     } else {
-     document.body.style.backgroundColor = "pink";
+    //  document.body.style.backgroundColor = "pink";
+    vvv=800;
+    vvw=800;
     }
   }
   
-  var x = window.matchMedia("(max-width: 700px)")
+  // var x = window.matchMedia("(max-width: 700px)")
   myFunction(x) // Call listener function at run time
-  x.addListener(myFunction) 
+  // x.addListener(myFunction) 
   
   let ai = 'X';
   let human = 'O';
@@ -102,9 +105,8 @@ let board = [
       }
     }
   }
-  
   function draw() {
-    background(255);
+    background(137, 245, 218);
     strokeWeight(5);
   
     line(w, 0, w, height);
@@ -140,21 +142,20 @@ let board = [
         <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
         </h4>`);
       } else {
-        resultP.html(`<h4 id='ps'> 
-                      <br/>
-                      Well, we can try again ❤
-                      <br/>
-                      <br>
-                      <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
-                      </h4>`);
+        resultP.html(`<div class='result' >${result} says : I know I'm ultra smart, what about you?</div>
+        <p id='ps'>Just kidding Lol. Stay Home and try again <3 
+          <br/>
+          <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
+         </p>
+        `);
       }
     }
   }
 
-  function myFunction(x) {
-    if (x.matches) { // If media query matches
-      vvv=600;
-      vvw=600;
-    }
-  }
+  // function myFunction(x) {
+  //   if (x.matches) { // If media query matches
+  //     vvv=600;
+  //     vvw=600;
+  //   }
+  // }
   

@@ -61,6 +61,7 @@ nav{
 hr{
   margin: 21px;
   padding: 2px;
+  color: #333;
 }
 
 body {
@@ -75,7 +76,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  padding: 1.5rem;
+  padding: 0 rem;
 }
 
 
@@ -100,8 +101,8 @@ body {
   outline: none;
 }
 
-#ps{ 
-  font-weight: 300;
+#ps{
+  font-size: 1rem;
   text-align: center;
   color: red;
   border-radius: 35px;
@@ -133,10 +134,59 @@ main p div{
   padding: 0.5rem;
   margin: 0.5rem 1rem;
 }
+.bar{
+  height: 0.1rem;
+  background-color: white;
+  animation: barr 0.5s ease-out 1;
+  margin-bottom: 7px;
+}
 
 .sty{
   color:#3b3e41;
   animation: colorChannger 10s ease-in-out infinite;
+}
+
+@media screen and (max-width:1025px) {
+  .sty{
+    font-size: 131px;
+  }
+  canvas{
+    border-width:9px;
+  }
+  hr{
+    border-top: 2px solid rgb(150, 148, 148);
+  }
+  .bar{
+    height: 0.4rem;
+
+  }
+  .result{
+    font-size: 4.6rem;
+  }
+  #ps{
+    font-size: 2.6rem;
+  }
+  #refresh {
+    margin: 1.5rem;
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+}
+
+@keyframes barr {
+  0%{
+      background-color: white;
+  }
+  25%{
+    background-color: #3498db;
+  }
+  26%{
+    background-color: #fff;
+  }
+  100%{
+    background-color: #3498db;
+  }
 }
 
 @keyframes colorChannger {

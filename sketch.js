@@ -4,7 +4,7 @@
 // https://youtu.be/I64-UTORVfU
 // https://editor.p5js.org/codingtrain/sketches/0zyUhZdJD
 
-let board = [ [ '', '', '' ], [ '', '', '' ], [ '', '', '' ] ];
+let board = [['', '', ''], ['', '', ''], ['', '', '']];
 
 let w; // = width / 3;
 let h; // = height / 3;
@@ -30,9 +30,23 @@ myFunction(x); // Call listener function at run time
 let ai = '';
 let human = prompt('Press X or O');
 let currentPlayer = human;
+let firstMove;
+let firstPlayer;
 
-if (human == 'O') ai = 'X';
-else if (human == 'X') ai = 'O';
+if (human == 'O') {
+	ai = 'X';
+	firstMove = prompt('Do you want to play first?');
+}
+else if (human == 'X') {
+	ai = 'O';
+	firstMove = prompt('Do you want to play first?');
+}
+else location.reload();
+
+firstMove = firstMove.toLowerCase();
+//input converted to lower case to account for various casing
+if (firstMove == 'yes') firstPlayer = human;
+else if (firstMove == 'no') firstPlayer = ai;
 else location.reload();
 
 function setup() {
@@ -42,7 +56,7 @@ function setup() {
 
 	let random1 = Math.floor(Math.random() * 3);
 	let random2 = Math.floor(Math.random() * 3);
-	board[random1][random2] = ai;
+	if (firstPlayer == ai) board[random1][random2] = ai;
 	// bestMove();
 }
 

@@ -32,12 +32,23 @@ let human = prompt('Press X or O');
 let currentPlayer = human;
 let firstMove;
 let firstPlayer;
+let scores = {
+	X: 10,
+	O: -10,
+	tie: 0
+};
+
 
 if (human == 'O') {
 	ai = 'X';
 	firstMove = prompt('Do you want to play first? Enter yes (or) no:');
 }
 else if (human == 'X') {
+	scores = {
+		X: -10,
+		O: 10,
+		tie: 0
+	};
 	ai = 'O';
 	firstMove = prompt('Do you want to play first? Enter yes (or) no:');
 }
@@ -161,9 +172,16 @@ function draw() {
         <br/>
         <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
         </h4>`);
+		} else if(result == human){
+			resultP.html(`<div class='result' >You(${result}) won like a boss!</div>
+        <p id='ps'>Want to play another round? 😏👇
+          <br/>
+          <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
+         </p>
+        `);
 		} else {
-			resultP.html(`<div class='result' >${result} wins like a boss!</div>
-        <p id='ps'>Stay Home and try again <3 
+			resultP.html(`<div class='result' >You see how I (${result}) won like a boss?!</div>
+        <p id='ps'>Want to play another round? 😏👇 
           <br/>
           <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
          </p>

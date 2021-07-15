@@ -1,5 +1,6 @@
 function bestMove() {
     // AI to make its turn
+    
     let bestScore = -Infinity;
     let move;
     for (let i = 0; i < 3; i++) {
@@ -20,11 +21,6 @@ function bestMove() {
     currentPlayer = human;
   }
   
-  let scores = {
-    X: 10,
-    O: -10,
-    tie: 0
-  };
   
   function minimax(board, depth, isMaximizing) {
     let result = checkWinner();

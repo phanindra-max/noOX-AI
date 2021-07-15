@@ -35,11 +35,11 @@ let firstPlayer;
 
 if (human == 'O') {
 	ai = 'X';
-	firstMove = prompt('Do you want to play first?');
+	firstMove = prompt('Do you want to play first? Enter yes (or) no:');
 }
 else if (human == 'X') {
 	ai = 'O';
-	firstMove = prompt('Do you want to play first?');
+	firstMove = prompt('Do you want to play first? Enter yes (or) no:');
 }
 else location.reload();
 

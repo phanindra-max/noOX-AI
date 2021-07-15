@@ -163,7 +163,7 @@ function draw() {
         </h4>`);
 		} else {
 			resultP.html(`<div class='result' >${result} wins like a boss!</div>
-        <p id='ps'>Just kidding Lol. Stay Home and try again <3 
+        <p id='ps'>Stay Home and try again <3 
           <br/>
           <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
          </p>

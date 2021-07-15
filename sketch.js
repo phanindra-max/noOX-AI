@@ -162,7 +162,7 @@ function draw() {
         <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>
         </h4>`);
 		} else {
-			resultP.html(`<div class='result' >${result} says : I know I'm ultra smart, what about you?</div>
+			resultP.html(`<div class='result' >${result} wins like a boss!</div>
         <p id='ps'>Just kidding Lol. Stay Home and try again <3 
           <br/>
           <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>

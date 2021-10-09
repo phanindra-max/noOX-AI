@@ -181,7 +181,7 @@ function draw() {
          </p>
         `);
 		} else {
-			resultP.html(`<div class='result' >You see how I (${result}) won like a boss?!</div>
+			resultP.html(`<div class='result' >Loser!! I won like a boss😎</div>
         <p id='ps'>Want to play another round? 😏👇 
           <br/>
           <button id='refresh' class='btn btn-outline-primary' onClick="window.location.reload();">Refresh Page</button>

@@ -41,7 +41,7 @@ let scores = {
 
 if (human == 'O') {
 	ai = 'X';
-	firstMove = prompt('Do you want to play first? Enter yes (or) no:');
+	firstMove = 'no'
 }
 else if (human == 'X') {
 	scores = {
@@ -50,7 +50,7 @@ else if (human == 'X') {
 		tie: 0
 	};
 	ai = 'O';
-	firstMove = prompt('Do you want to play first? Enter yes (or) no:');
+	firstMove = 'yes'
 }
 else location.reload();
 

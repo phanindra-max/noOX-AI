@@ -28,7 +28,7 @@ function myFunction(x) {
 myFunction(x); // Call listener function at run time
 // x.addListener(myFunction)
 let ai = '';
-let human = prompt('Press X or O to start the game');
+let human = prompt('To start the game, press "X" or "O" ');
 human = human.toUpperCase();
 let currentPlayer = human;
 let firstMove;

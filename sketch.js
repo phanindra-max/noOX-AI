@@ -126,7 +126,9 @@ function mousePressed() {
 		if (board[i][j] == '') {
 			board[i][j] = human;
 			currentPlayer = ai;
-			bestMove();
+			// added random time interval between 100ms to 800ms
+			let randomWaitTime = Math.random() * 700 + 100; 
+			setTimeout(bestMove, randomWaitTime);
 		}
 	}
 }
